@@ -1,0 +1,21 @@
+{
+    "name": "luysd2/ecommerce",
+    "description": "Desenvolvendo um sistema e-commerce",
+    "authors": [
+        {
+            "name": "Luis Sousa",
+            "email": "luysd2@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
