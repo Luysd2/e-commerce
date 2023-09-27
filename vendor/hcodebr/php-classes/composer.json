@@ -1,4 +1,4 @@
-{
+ {
     "name": "hcodebr/php-classes",
     "minimum-stability": "dev",
     "type": "library",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "src"
+            "Hcode\\": "src"
         }
     }
 }
